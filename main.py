@@ -4,7 +4,8 @@ def gether_data():
     return n1, n2
 
 def main():
-    print(2*2)
+    n1, n2 = gether_data()
+    print(2**2)
     return None
 
 if __name__ == "__main__":
