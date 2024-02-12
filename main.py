@@ -5,7 +5,12 @@ def gether_data():
 
 def main():
     n1, n2 = gether_data()
-    print(2**2)
+    print_message(n1,n2)
+    return None
+
+def print_message(n1,n2):
+    print(f'Os valores {n1} e {n2} somados dão {n1+n2}')
+
     return None
 
 if __name__ == "__main__":
